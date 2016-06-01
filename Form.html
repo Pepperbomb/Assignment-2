@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Form</title>
+    <link rel= "stylesheet" href="About.css">
+</head>
+
+<body>
+    
+    <div class="menu">
+        <a href="index.html">Home</a> | <a href="filopage1.html">Gallery</a> | <a href="About.html">About</a> | <a href="contact.html">Contact</a>
+    </div>
+    
+    <img id= "topbanner" src= "bubbleform.png" />
+
+    <form>
+        <h3>Please fill out all the following fields:</h3>
+        <br/>
+        
+        First Name: 
+        <input id="fname" type="text" class="name"/>
+        <br/>
+        <br/>
+        
+        Last Name:
+        <input id="lname" type="text" class="name"/>
+        <br/>
+        <br/>
+        
+        ID Number (if applicable): 
+        <input id="id" type="number" class="name" />
+        <br/>
+         
+        <h3>Gender</h3>
+        <input type="radio" name="gender" />Female <br/>
+        <input type="radio" name="gender" />Male <br/>
+                
+        <h3>Select the Papers you would like to enrol in:</h3>
+        <input type="checkbox" />Web Design<br/>
+        <input type="checkbox" />Game Development <br/>
+        <input type="checkbox" />Film Animation<br/>
+        <br/>
+        
+        <div id="submit">
+            Submit
+        </div>
+        
+    </form>
+    
+    <script>
+        document.getElementById('submit').addEventListener('click', function() {
+        var fname = document.getElementById('fname').value;
+        alert("Thank you for your submission " + fname + ".");
+        });
+    </script>
+
+</body>
+</html>

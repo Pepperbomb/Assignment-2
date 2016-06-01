@@ -1,0 +1,158 @@
+
+*{font-family: Arial}
+
+.map {
+    float: right;
+    margin-right: 10%;
+    max-width: 90%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.col-md-3 {
+    padding: 5px;
+}
+
+.option {
+    font-weight: bold;
+}
+
+.contact {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.Title {
+    text-align: center;
+    color: #014b94;
+    font-size: 25pt;
+    margin-top: 180px;
+}
+
+.menu {
+    font-weight: bold;
+    font-size: 14pt;
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+    padding: 9px 0px;
+
+    
+}
+
+.headings {
+    color: #004b94;
+    text-align: center;
+}
+
+#topbanner {
+    max-width: 100%;    
+}
+
+.paragraph {
+    text-align: center;
+    margin: 0 10%;
+    text-align: justify;
+}
+
+#submit {
+    background-color: #e4a025;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer"
+}
+
+#spacer {
+    padding: 30px;
+}
+
+.Home {
+    max-width: 60%;
+    
+}
+
+.heading {
+color: white;
+}
+
+
+.villa {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.desc {
+    color: #004b94;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body {
+    background-color: #cbcbcb;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:link {
+    color: #ce8b11;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #004b94;
+}
+
+a:hover {
+    color: #cbcbcb;
+    background-color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .paragraph {
+        text-align: center;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .villa {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .villa {
+        width: 100%;
+    }
+}
